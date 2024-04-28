@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <!--  This is simple HTML Hello World -->
+
+    <h1>Hello World</h1>
+
+    <!-- This is Hello World Using Javascript -->
+
+    <div id="root"></div>
+
+    <!-- <script>
+        const heading = document.createElement("h1");
+        heading.innerHTML = "Hello World Using Javascript !";
+        const root = document.getElementById("root");
+        root.appendChild(heading);
+
+    </script> -->
+
+    <!-- This is Hello World Using React and CDN Links, Content Delivery Network is a copy of original server that prevents DDOS attacks and fulfills all the requests of visitors by providing them what they ask for. CDN fetches data from the original server and lessens the workload on original server by handling all the visitors requests and also reduces reloading time of websites. Cross-origin resource sharing is a mechanism that allows a web page to access restricted resources from a server on a domain different than the domain that served the web page. -->
+
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script src="./App.js"></script>
+    <!-- Only One will fetch root at one time, either JS above or React, To see results, comment JS code. -->
+</body>
+</html>
